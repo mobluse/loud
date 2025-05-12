@@ -3,8 +3,8 @@
 shift $((OPTIND-1))
 
 if [ -z "$1" ]; then
-    echo "Error: Please provide an audio file as an argument."
-    echo "Usage: $0 <audio_file>"
+    echo "Error: Please provide an audio file and a duration as arguments."
+    echo "Usage: $0 <audio_file> <duration>"
     exit 1
 fi
 
